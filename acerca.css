@@ -14,11 +14,11 @@
     padding: 60px;
     text-align: center;
     background: #ff0d05;
-    color: rgb(46, 11, 248);
+    color: rgb(78, 248, 11);
   }
   .navbar {
     display: flex;
-    background-color: rgb(240, 235, 235);
+    background-color: rgb(236, 240, 235);
     padding: 20px 30px;
     
     text-align: center;

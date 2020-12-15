@@ -3,17 +3,18 @@
     box-sizing: border-box;
   }
   
-  /* Style the body */
+  /* Estilo del cuerpo */
   body {
     font-family: Arial;
+    text-align: center;
     margin: 0;
   }
   
-  /* Header/logo Title */
+  /* Título del encabezado/logotipo */
   .header {
-    padding: 60px;
+    padding: 1px;
     text-align: center;
-    background: #ff0d05;
+    background: #e964a2;
     color: rgb(78, 248, 11);
   }
   .navbar {
@@ -23,9 +24,9 @@
     
     text-align: center;
   }
-  /* Style the top navigation bar */
+  /* Estilo de la barra de navegación superior */
 .navbar {
     display: flex;
-    background-color: rgb(96, 98, 224);
+    background-color: rgb(252, 241, 90);
     padding: 20px 30px;
-  
+}

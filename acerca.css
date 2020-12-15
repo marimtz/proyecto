@@ -14,13 +14,18 @@
     padding: 60px;
     text-align: center;
     background: #ff0d05;
-    color: rgb(248, 98, 11);
+    color: rgb(46, 11, 248);
   }
   .navbar {
     display: flex;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(240, 235, 235);
     padding: 20px 30px;
     
     text-align: center;
   }
+  /* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: rgb(96, 98, 224);
+    padding: 20px 30px;
   

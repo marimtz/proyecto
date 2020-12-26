@@ -1,0 +1,18 @@
+
+
+ 
+* {
+    box-sizing: border-box;
+  }
+  
+   Estilo del cuerpo ......
+  body {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    background-color: #ffdd90;
+    
+    background-image: url("liderazgo.jpg");
+    text-decoration:  none;
+   }
+  

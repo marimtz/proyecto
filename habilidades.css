@@ -1,0 +1,31 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #f4f74e;
+  color: rgb(252, 8, 8);
+}
+/*body {
+    background-color: #ffdd90;
+    background-image: url("21107.jpg");
+    text-decoration:  none not working
+  }
+
+
+
+  
+
+
+
+  
+ 

@@ -3,30 +3,35 @@
     box-sizing: border-box;
   }
   
-  /* Estilo del cuerpo */
+   Estilo del cuerpo 
   body {
     font-family: Arial;
     text-align: center;
     margin: 0;
+    background-image: url("272762.jpg");
+    text-decoration:  none;
   }
   
-  /* Título del encabezado/logotipo */
-  .header {
+   /*Título del encabezado/logotipo */
+  
+   .header {
     padding: 1px;
     text-align: center;
+   
     background: #e964a2;
     color: rgb(78, 248, 11);
   }
-  .navbar {
-    display: flex;
-    background-color: rgb(236, 240, 235);
-    padding: 20px 30px;
-    
-    text-align: center;
-  }
-  /* Estilo de la barra de navegación superior */
+  
 .navbar {
     display: flex;
-    background-color: rgb(252, 241, 90);
+    /*background-color: rgb(236, 240, 235);*/
     padding: 20px 30px;
+    
+    text-align: center;   
+  }
+           /*         Estilo de la barra de navegación superior 
+.navbar {
+    display: flex;
+    background-color: rgb(245, 150, 158);
+    padding: 20px 30px;*/
 }

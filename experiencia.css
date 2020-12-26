@@ -1,0 +1,94 @@
+ 
+ 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Estilo del cuerpo */
+  body {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    background-color: #ffdd90;
+    
+    background-image: url("fondobonito.jpg");
+    text-decoration:  none;
+   }
+  
+  /* Título del encabezado/logotipo */
+  .header {
+    padding: 5px;
+    flex: 20%;
+    background: ("fondo.jpg") #e467b0;
+    color: rgb(6, 20, 216);
+  }
+  .flotante {
+    display:scroll;
+        position:fixed;
+        bottom:320px;
+        right:0px;
+}
+  
+  /* Estilo de la barra de navegación superior */
+  .navbar {
+    display: flex;
+    background-color: rgb(96, 98, 224);
+    padding: 20px 30px;
+    
+   
+  }
+  
+  /* Estilo de los enlaces de la barra de navegación */
+  .navbar a {
+    color: rgb(245, 16, 27);
+    padding: 20px 30px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+ 
+  /* Contenedor de columnas */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Crear dos columnas desiguales que se sientan una al lado de la otra */
+  /* Barra lateral/columna izquierda */
+  .side {
+    flex: 60%;
+    background-color: #6ce9e9;
+    
+    padding: 20px;
+  }
+  
+  /* Columna principal */
+  .main {
+    flex: 20%;
+    background-color: #0e4e4e;
+    /*background-color: rgb(224, 86, 201);*/
+    padding: 20px;
+  }
+  
+  /* Imagen falsa, sólo para este ejemplo */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Pie de página */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(3, 193, 241);
+  }
+  
+  /* Diseño responsivo - cuando la pantalla tiene menos de 700px de ancho, haga que las dos columnas se apilan una encima de la otra en lugar de una al lado de la otra */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  
+

@@ -22,8 +22,8 @@ body {
   display: flex;
   background-color: rgb(96, 98, 224);
   padding: 20px 30px;
-  
   text-align: center;
+  
 }
 
 /* Estilo de los enlaces de la barra de navegación */
@@ -32,6 +32,7 @@ body {
   padding: 20px 30px;
   text-decoration: none;
   text-align: center;
+
 }
 
 /* Cambiar el color al pasar el ratón */
@@ -46,38 +47,50 @@ body {
   flex-wrap: wrap;
 }
 
-/* Crear dos columnas desiguales que se sientan una al lado de la otra */
+/* Crear dos columnas desiguales que se sientan una al lado de la otra 
 /* Barra lateral/columna izquierda */
 .side {
   flex: 30%;
   background-color: #6ce9e9;
   padding: 20px;
+  text-align: center;
 }
 
 /* Columna principal */
 .main {
   flex: 70%;
-  background-color: rgb(224, 86, 201);
+  /*background-color: rgb(224, 86, 201);*/
   padding: 20px;
+  text-align: center;
 }
 
-/* Imagen falsa, sólo para este ejemplo */
+/* Imagen falsa, sólo para este ejemplo 
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
-/* Pie de página */
+/* Pie de página 
 .footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
 }
 
-/* Diseño responsivo - cuando la pantalla tiene menos de 700px de ancho, haga que las dos columnas se apilan una encima de la otra en lugar de una al lado de la otra */
+/* Diseño responsivo - cuando la pantalla tiene menos de 700px de ancho, 
+haga que las dos columnas se apilan una encima de la otra en lugar de una al lado de la otra */
+
 @media screen and (max-width: 700px) {
   .row, .navbar {   
-    flex-direction: column;
+    flex-direction: column; 
+    text-align: center;
   }
 }
+
+
+
+
+
+
+
